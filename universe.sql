@@ -48,7 +48,7 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.constellations (
-    constellation_id integer NOT NULL,
+    constellations_id integer NOT NULL,
     name character varying(100) NOT NULL,
     abbreviation character varying(10) NOT NULL,
     meaning text,
